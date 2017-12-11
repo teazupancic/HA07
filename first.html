@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div>
+          <div class="boxes">Fixed width layout with pixels</div>
+          <div class="boxes">Liquid layout with percentages</div>
+        </div>
+        <style>
+        div .boxes {
+          /*margin: 10px;*/
+          font-size: 200%;
+          color: white;
+          height: 150px;
+          border: 2px solid black;
+          border-top-width:20px;
+        }
+        
+        .boxes:nth-child(1) {
+          background-color: red;
+          width: 650px;
+          margin-left:10%;
+          margin-top:20%;
+          height:10%;
+          font-size: 16px;
+          border-top-width: 500%;
+        }
+        
+        .boxes:nth-child(2) {
+          background-color: blue;
+          width: 75%;
+        }
+        </style>
+    </body>
+</html>
