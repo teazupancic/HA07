@@ -1,0 +1,38 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #e85855; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+div {
+  border: 1px solid;
+  color: green; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.x, .y {
+  border: 1px solid #ffa5fd;
+  padding: 10px;
+  color: #f7f59b; }
+
+.y {
+  color: green;
+  background-color: #f7ca9b; }
+
+article {
+  float: right;
+  width: 62.5%;
+  background-color: pink; }
+
+/*# sourceMappingURL=five.css.map */

@@ -1,0 +1,52 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #e85855;
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+@import 'reset';
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+
+}
+.box { @include border-radius(10px); }
+
+.x {
+  border: 1px solid #ffa5fd;
+  padding: 10px;
+  color: #f7f59b;
+}
+
+.y {
+  @extend .x;
+  color: green;
+  background-color: #f7ca9b;
+}
+
+
+article {
+  float: right;
+  width: 600px / 960px * 100%;
+  background-color:pink;
+}
